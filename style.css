@@ -1,0 +1,1622 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 8%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+.logo hr {
+    margin-top: -2px;
+}
+
+.list {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.list ol {
+    position: fixed;
+    background-color: #fff;
+    padding:15px 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    z-index: 1;
+}
+.list ol li a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.list ol li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.list ol li:hover {
+    text-decoration: underline;
+}
+
+.workWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content h1{
+    font-size: 70px;
+    color: #67c63f;
+    margin-top: 100px;
+}
+
+.content p {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: #808080;
+}
+
+.content button{
+    margin: 20px 0 0 0;
+    background-color: #8dc63f;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.content h6 {
+    font-size: 20px;
+    color: #808080;
+    margin: 70px 0 0 0;
+}
+
+.content img{
+    width: 12%;
+    margin: 10px 15px 0 0;
+}
+
+.pic img{
+    width: 100%;
+    height: 500px;
+    margin: 30px 0 0 0;
+}
+
+
+.talent h1{
+    font-size: 50px;
+    padding-left: 80px;
+}
+
+.talent p{
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.talent a{
+    text-decoration: none;
+    color: #008000;
+}
+
+.skillsWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 200px;
+    height: 120px;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    transition: all 0.5s ease;
+}
+
+.skills:hover {
+    transform: scale(1.1);
+    background-color: #d3d3d3;
+
+}
+
+.supportWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 200px;
+    height: 120px;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    transition: all 0.5s ease;
+}
+
+.support:hover {
+    transform: scale(1.1);
+    background-color: #d3d3d3;
+
+}
+.support h3 {
+    text-align: center;
+}
+.force {
+    background-color: #008b8b;
+    width: 95%;
+    height: 600px;
+    display: flex;
+    margin: 50px auto ;
+    border-radius: 10px;
+    overflow: hidden ;
+}
+.company h6 {
+    font-size: 25px;
+    padding-left: 20px;
+    margin: 30px 0 0 0;
+}
+.company h1 {
+    font-size: 60px;
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+}
+span {
+    color: #2fff66;
+}
+.company p {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0 0  20px;
+    margin-top: 5px;
+}
+.company button {
+    color: #001e00;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0 0 20px;
+    height: 40px;
+    width: 150px;
+}
+.partner img {
+    margin-left: 250px;
+    overflow: hidden;
+}
+.online {
+    padding: 0;
+    margin: 0;
+}
+.network {
+    background-image: url(./find-talent.webp);
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.network h3 {
+    font-size: 25px;
+    color: #fff;
+    padding: 30px 0 0 25px;
+}
+.network h1 {
+    font-size: 50px;
+    color: #fff;
+    padding: 80px 0 0 25px;
+}
+.network p {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0 0 25px;
+}
+.network button {
+    width: 370px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2fff66;
+    color: #fff;
+    margin: 80px 0 0 40px;
+    display: inline-block;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+.network button:hover {
+    background-color: #fff;
+    color: #2fff66;
+}
+.network h2 {
+    text-align: start;
+    font-size: 30px;
+    font-family:sans-serif;
+    margin: -5px 0 0 15px;
+}
+.network h6 {
+    text-align: start;
+    font-size: 18px;
+    margin: 0 0 0 15px;
+}
+.business {
+    display: flex;
+    margin: 50px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 35px;
+}
+.quality {
+    background-color: #d3d3d3;
+    width: 63%;
+    height: 550px;
+    border-radius: 10px;
+}
+.quality h1 {
+    font-size: 80px;
+    padding-left: 15px;
+}
+.quality i {
+    margin-left: 15px;
+}
+.quality h2{
+    font-size: 40px;
+    margin: -30px 0 0 0;
+    padding-left: 15px;
+}
+.quality p {
+    font-size: 20px;
+    padding: 10px 0 0 70px;
+}
+.upwork img{
+    width: 30%;
+    height: 600px;
+    position: absolute;
+    top: -30px;
+    left: 40%;
+}
+.market {
+    width: 32%;
+    background-color: #008b8b;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.market h1 {
+    font-size: 40px;
+    padding: 200px 0 0 30px;
+    color: #fff;
+}
+.market h2 {
+    font-size: 30px;
+    padding: 20px 0 0 30px;
+    color: #fff;
+}
+.market h3 {
+    font-size: 30px;
+    padding: 20px 0 0 30px;
+    color: #fff;
+}
+.market p {
+    font-size: 20px;
+    padding: 10px 0 0 80px;
+    color: #fff;
+}
+.great {
+    display: flex;
+    background-color: #3d53e1;
+    width: 95%;
+    height: 700px;
+    margin-left: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.manager img {
+    width: 95%;
+    height: 700px;
+}
+.clients h3 {
+    font-size: 30px;
+    color: #fff;
+    padding: 30px 0 0 5px;
+}
+.clients h1 {
+    font-size: 70px;
+    color: #fff;
+    padding: 40px 0 0 5px;
+}
+.clients p {
+    font-size: 22px;
+    color: #fff;
+    padding: 20px 0 150px 5px;
+}
+.clients ul {
+    display: flex;
+}
+.clients ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 22px;
+    padding: 10px 40px 0 0;
+    color: #fff;
+}
+.clients button {
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #3d53e1;
+    cursor: pointer;
+   
+}
+.clients button:hover {
+    background-color: #d3d3d3;
+    color: #3d53e1;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.heading {
+    font-size: 50px;
+    margin: 50px 0 0 30px;
+    color: #001e00;
+}
+.action {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #808080;
+    width: 95%;
+    height: 200px;
+    margin: 30px 0 0 30px;
+    border-radius: 10px;
+    padding: 30px 0 0 30px;
+}
+.ukraine h1{
+    font-size: 40px;
+}
+.ukraine p {
+    font-size: 22px;
+    padding-top: 10px;
+}
+.ukraine button {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid #008000;
+    background-color: #fff;
+    color: #008000;
+    cursor: pointer;
+}
+.ukraine button:hover {
+    background-color: #d3d3d3;
+    color: #008000;
+}
+.feeling img {
+    width: 12%;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.developer {
+    display: flex;
+    margin: 80px 0 0 40px;
+}
+.trend ul li {
+    list-style-type: none;
+    font-size: 35px;
+    padding: 0 150px 20px 0;
+    color: #808080;
+}
+.trend sup {
+    font-size: 12px;
+}
+.trend ul li:hover {
+    color: #008000;
+}
+.edit {
+    display: flex;
+}
+.specialist ul li {
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0 150px 10px 0;
+}
+.specialist ul li:hover {
+    color: #008000;
+}
+.designer ul li {
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0 150px 10px 0;
+}
+.designer ul li:hover {
+    color: #008000;
+}
+.footer {
+    background-color: #001e00;
+    width: 95%;
+    height:700px;
+    margin: 100px 0 0 40px;
+    border-radius: 10px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.resources{
+    display: flex;
+    margin: 100px 0 0 70px;
+}
+.resources ul li {
+    list-style-type: none;
+    padding: 0 120px 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+.button p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.button img {
+    width: 30px;
+    height: 30px;
+    margin: 70px 0 0 10px;
+    border: 1px solid #fff;
+    border-radius:100px;
+    color: #fff;
+}
+.button a {
+    color: #fff;
+}
+.apps {
+    position: absolute;
+    bottom: 103px;
+    right: 100px;
+}
+.apps p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.apps img{
+    width: 30px;
+    height: 30px;
+    margin: 70px 0 0 10px;
+    border: 1px solid #fff;
+    border-radius:100px;
+    color: #fff;
+}
+.apps a {
+    color: #fff;
+}
+.condition ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 0 0 30px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.condition ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media only screen and (max-width : 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .logo img{
+        width: 20%;
+        height: 80px;
+        margin: 0;
+        padding: 0;
+    }
+    .logo hr {
+        margin-top: -2px;
+    }
+    
+    .list {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .list ol {
+        position: fixed;
+        background-color: #fff;
+        padding:15px 10px;
+        width: 100%;
+        display: inline-block;
+        flex-flow: wrap;
+        z-index: 1;
+    }
+    .list ol li a{
+        text-decoration: none;
+        color: #000;
+        
+    }
+    .list ol li{
+        list-style-type: none;
+        display: block;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .list ol li:hover {
+        text-decoration: underline;
+    }
+    
+    .content {
+        width: 100%;
+    }
+    .content h1{
+        font-size: 50px;
+        color: #67c63f;
+        margin-top: 180px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .content p {
+        font-size: 25px;
+        margin: 0;
+        font-weight: bold;
+        color: #808080;
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .content button{
+        margin: 20px 0 0 0;
+        background-color: #8dc63f;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 8px;
+        margin-left: 10px;
+    }
+    
+    .content h6 {
+        font-size: 20px;
+        color: #808080;
+        margin: 20px 0 0 0;
+    }
+    
+    .content img{
+        width: 15%;
+        margin: 10px 15px 0 0;
+    }
+    
+    .pic img{
+        display: none;
+    }
+    
+    
+    .talent h1{
+        font-size: 25px;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .talent p{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    
+    .talent a{
+        text-decoration: none;
+        color: #008000;
+    }
+    
+    .skillsWrapper {
+        display: block;
+        align-items: center;
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    
+    .skills {
+        margin: 20px 0 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 300px;
+        height: 120px;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #f5f5f5;
+        transition: all 0.5s ease;
+    }
+    
+    .skills:hover {
+        transform: scale(1.1);
+        background-color: #d3d3d3;
+    
+    }
+    
+    .supportWrapper {
+        display: block;
+        align-items: center;
+        margin: 20px 0 0 0;
+    }
+    
+    .support {
+        margin: 20px 0 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 300px;
+        height: 120px;
+        justify-content: center;
+        border-radius: 8px;
+        background-color: #f5f5f5;
+        transition: all 0.5s ease;
+    }
+    
+    .support:hover {
+        transform: scale(1.1);
+        background-color: #d3d3d3;
+    
+    }
+    .support h3 {
+        text-align: center;
+    }
+    .force {
+        display: block;
+        margin: 50px 0 0 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 520px;
+        width: 100%;
+    }
+    .company {
+        background-color: #008b8b;
+        width: 100%;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .company h6 {
+        font-size: 12px;
+        padding-left: 10px;
+        margin: 190px 0 0 0;
+        
+    }
+    .company h1 {
+        width: 100%;
+        font-size: 20px;
+        margin: 5px 0 0 0;
+        padding-left: 10px;
+    }
+    span {
+        color: #2fff66;
+    }
+    .company p { 
+        width: 100%;
+        font-weight: bold;
+        font-size: 10px;
+        padding: 10px 0 0 10px;
+        margin-top: 5px;
+    }
+    .company button {
+        color: #001e00;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        margin: 20px 0 0 10px;
+        height: 30px;
+        width: 100px;
+    }
+    .partner {
+        position: absolute;
+        top: 0;
+        left: -250px;
+    }
+    .partner img {
+        height: 180px;
+        width: 100%;
+    }
+    .online {
+        padding: 0;
+        margin: 0;
+    }
+    .network {
+        background-image: url(./find-talent.webp);
+        width: 100%;
+        height: 850px;
+        margin: 20px 0 0 0;
+        border-radius: 10px;
+    
+    }
+    .network h3 {
+        font-size: 18px;
+        color: #fff;
+        padding: 30px 0 0 25px;
+    }
+    .network h1 {
+        font-size: 25px;
+        color: #fff;
+        padding: 40px 0 0 25px;
+    }
+    .network p {
+        font-size: 12px;
+        color: #fff;
+        padding: 20px 0 0 25px;
+    }
+    .network button {
+        width: 335px;
+        height: 150px;
+        border-radius: 10px;
+        border: none;
+        background-color: #2fff66;
+        color: #fff;
+        margin: 50px 0 0 10px;
+        display: block;
+        flex-wrap: nowrap;
+        cursor: pointer;
+    }
+    .network button:hover {
+        background-color: #fff;
+        color: #2fff66;
+    }
+    .network h2 {
+        text-align: start;
+        font-size: 30px;
+        font-family:sans-serif;
+        margin: -5px 0 0 15px;
+    }
+    .network h6 {
+        text-align: start;
+        font-size: 18px;
+        margin: 0 0 0 15px;
+    }
+    .business {
+        display: block;
+        margin: 50px 0 0 0;
+    }
+    .quality {
+        background-color: #d3d3d3;
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .quality h1 {
+        font-size: 30px;
+        padding: 15px 0 0 15px;
+    }
+    .quality i {
+        margin-left: 15px;
+    }
+    .quality h2{
+        font-size: 20px;
+        margin: -30px 0 0 0;
+        padding-left: 15px;
+    }
+    .quality p {
+        font-size: 10px;
+        padding: 10px 0 0 40px;
+    }
+    .upwork img{
+        width: 40%;
+        height: 350px;
+        position: absolute;
+        top: 310px;
+        left: 200px;
+    }
+    .market {
+        width: 100%;
+        background-color: #008b8b;
+        border-radius: 10px;
+        margin: 10px 0 0 0;
+        height: 350px;
+    }
+    .market h1 {
+        font-size: 25px;
+        padding: 30px 0 0 0;
+        color: #fff;
+    }
+    .market h2 {
+        font-size: 20px;
+        padding: 20px 0 0 0;
+        color: #fff;
+    }
+    .market h3 {
+        font-size: 20px;
+        padding: 20px 0 0 0;
+        color: #fff;
+    }
+    .market p {
+        font-size: 20px;
+        padding: 10px 0 0 10px;
+        color: #fff; 
+        width: 40%;  
+    }
+    .great {
+        display: block;
+        flex-direction: column;
+        margin: 50px 0 0 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 750px;
+        width: 100%;
+    }
+    .manager img {
+        width: 100%;
+        height: 50%;
+    }
+    .clients {
+        background-color: #3d53e1;
+        width: 100%;
+        border-radius: 10px;
+        height: 50%;
+    }
+    .clients h3 {
+        font-size: 15px;
+        color: #fff;
+        padding: 30px 0 0 5px;
+    }
+    .clients h1 {
+        font-size: 25px;
+        color: #fff;
+        padding: 20px 0 0 5px;
+    }
+    .clients p {
+        font-size: 12px;
+        color: #fff;
+        padding: 20px 0 40px 5px;
+    }
+    .clients hr {
+        width: 100%;
+    }
+    .clients ul {
+        display: flex;
+    }
+    .clients ul li {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 12px;
+        padding: 10px 30px 0 10px;
+        color: #fff;
+    }
+    .clients button {
+        font-size: 12px;
+        margin: 15px 0 0 5px;
+        padding: 10px 10px;
+        border-radius: 50px;
+        border: none;
+        background-color: #fff;
+        color: #3d53e1;
+        cursor: pointer;
+       
+    }
+    .clients button:hover {
+        background-color: #d3d3d3;
+        color: #3d53e1;
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .heading {
+        font-size: 20px;
+        margin: 50px 0 0 10px;
+        color: #001e00;
+        width: 100%;
+    }
+    .action {
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #808080;
+        width: 100%;
+        height: 180px;
+        margin: 30px 0 0 0;
+        border-radius: 10px;
+        padding: 30px 0 0 10px;
+    }
+    .ukraine h1{
+        font-size: 20px;
+    }
+    .ukraine p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .ukraine button {
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 20px;
+        padding: 10px 30px;
+        border-radius: 50px;
+        border: 2px solid #008000;
+        background-color: #fff;
+        color: #008000;
+        cursor: pointer;
+    }
+    .ukraine button:hover {
+        background-color: #d3d3d3;
+        color: #008000;
+    }
+    .feeling img {
+        width: 12%;
+        position: absolute;
+        top: 110px;
+        right: 50px;
+    }
+    .developer {
+        display: block;
+        margin: 80px 0 0 0;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .trend ul li {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0 0 20px 10px;
+        color: #808080;
+        display: flex;
+    }
+    .trend sup {
+        font-size: 8px;
+    }
+    .trend ul li:hover {
+        color: #008000;
+    }
+    .edit {
+        display: flex;
+        margin-top: 20px;
+    }
+    .specialist ul li {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0 70px 10px 10px;
+    }
+    .specialist ul li:hover {
+        color: #008000;
+    }
+    .designer ul li {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0 0 10px 0;
+    }
+    .designer ul li:hover {
+        color: #008000;
+    }
+    .footer {
+        background-color: #001e00;
+        width: 100%;
+        height: 550px;
+        margin: 50px 0 0 0;
+        border-radius: 10px;
+        padding-top: 50px;
+        position: relative;
+    }
+    
+    .resources{
+        display: flex;
+        margin: 0 0 0 10px;
+    }
+    .resources ul li {
+        list-style-type: none;
+        padding: 0 30px 10px 10px;
+        font-size: 10px;
+        color: #fff;
+    }
+    .button p {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .button img {
+        width: 15px;
+        height: 15px;
+        margin: 30px 0 0 10px;
+        border: 1px solid #fff;
+        border-radius:100px;
+        color: #fff;
+    }
+    .apps {
+        position: absolute;
+        bottom: 135px;
+        right: 10px;
+    }
+    .apps p {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .apps img{
+        width: 15px;
+        height: 15px;
+        margin: 30px 0 0 10px;
+        border: 1px solid #fff;
+        border-radius:100px;
+        color: #fff;
+    }
+    .condition ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 10px 0 0 15px;
+        font-size: 10px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .condition ul li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width : 820px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .logo img{
+        width: 10%;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    .logo hr {
+        margin-top: -2px;
+    }
+    
+    .list {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .list ol {
+        position: fixed;
+        background-color: #fff;
+        padding:15px 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+        z-index: 1;
+    }
+    .list ol li a{
+        text-decoration: none;
+        color: #000;
+        
+    }
+    .list ol li{
+        list-style-type: none;
+        font-size: 20px;
+    }
+    .list ol li:hover {
+        text-decoration: underline;
+    }
+    .workWrapper {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .content {
+        width: 100%;
+    }
+    .content h1{
+        font-size: 50px;
+        color: #67c63f;
+        margin: 100px 0 0 50px;
+        width: 100%;
+    }
+    
+    .content p {
+        font-size: 20px;
+        margin: 0 0 0 50px;
+        font-weight: bold;
+        color: #808080;
+        width: 100%;
+    }
+    
+    .content button{
+        margin: 20px 0 0 50px;
+        background-color: #8dc63f;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    .content h6 {
+        font-size: 20px;
+        color: #808080;
+        margin: 20px 0 0 50px;
+    }
+    
+    .content img{
+        width: 8%;
+        margin: 10px 0 0 50px;
+    }
+    .pic {
+        width: 70%;
+    }
+    .pic img{
+        width: 100%;
+        height: 300px;
+        margin: 100px 0 0 0;
+    }
+    
+    
+    .talent h1{
+        font-size: 35px;
+        padding-left: 10px;
+        margin: 30px 0 0 60px;
+    }
+    
+    .talent p{
+        padding-left: 10px;
+        font-size: 20px;
+        margin: 10px 0 0 60px;
+    }
+    
+    .talent a{
+        text-decoration: none;
+        color: #008000;
+    }
+    
+    .skillsWrapper {
+        display: flex;
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    
+    .skills {
+        margin: 20px 0 0 0;
+        width: 180px;
+        height: 80px;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #f5f5f5;
+        transition: all 0.5s ease;
+        font-size: 12px;
+    }
+    
+    .skills:hover {
+        transform: scale(1.1);
+        background-color: #d3d3d3;
+    
+    }
+    
+    .supportWrapper {
+        display: flex;
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    .support {
+        margin: 20px 0 0 0;
+        width: 180px;
+        height: 80px;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #f5f5f5;
+        transition: all 0.5s ease;
+        font-size: 12px;
+    }
+    
+    .support:hover {
+        transform: scale(1.1);
+        background-color: #d3d3d3;
+    
+    }
+    .support h3 {
+        text-align: center;
+    }
+    .force {
+        background-color: #008b8b;
+        width: 100%;
+        height: 395px;
+        display: flex;
+        justify-content: space-between;
+        margin: 30px auto ;
+        border-radius: 10px;
+        overflow: hidden ;
+    }
+    .company {
+        width: 100%;
+    }
+    .company h6 {
+        font-size: 20px;
+        padding-left: 20px;
+        margin: 10px 0 0 0;
+    }
+    .company h1 {
+        width: 100%;
+        font-size: 30px;
+        margin: 10px 0 0 0;
+        padding-left: 20px;
+    }
+    span {
+        color: #2fff66;
+    }
+    .company p {
+        width: 100%;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px 0 0  20px;
+        margin-top: 5px;
+    }
+    .company button {
+        color: #001e00;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        margin: 30px 0 0 20px;
+        height: 40px;
+        width: 150px;
+    }
+    .partner img {
+        width: 100%;
+        margin:0;
+        overflow: hidden;
+    }
+    .online {
+        padding: 0;
+        margin: 0;
+    }
+    .network {
+        background-image: url(./asset\ 22.jpg);
+        width: 100%;
+        background-size: cover;
+        height: 600px;
+        margin: 20px 0 0 0;
+        border-radius: 10px;
+    
+    }
+    .network h3 {
+        font-size: 25px;
+        color: #fff;
+        padding: 30px 0 0 25px;
+    }
+    .network h1 {
+        font-size: 50px;
+        color: #fff;
+        padding: 40px 0 0 25px;
+    }
+    .network p {
+        font-size: 20px;
+        color: #fff;
+        padding: 20px 0 0 25px;
+    }
+    .network button {
+        width: 250px;
+        height: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #2fff66;
+        color: #fff;
+        margin: 150px 0 0 15px;
+        display: inline-block;
+        flex-wrap: nowrap;
+        cursor: pointer;
+    }
+    .network button:hover {
+        background-color: #fff;
+        color: #2fff66;
+    }
+    .network h2 {
+        text-align: start;
+        font-size: 20px;
+        font-family:sans-serif;
+        margin-left: 15px;
+    }
+    .network h6 {
+        text-align: start;
+        font-size: 15px;
+        margin: 5px 0 0 15px;
+    }
+    .business {
+        display: flex;
+        margin: 50px 0 0 0;
+    }
+    .quality {
+        background-color: #d3d3d3;
+        width: 55%;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .quality h1 {
+        font-size: 40px;
+        padding: 10px 0 0 15px;
+        width: 100%;
+    }
+    .quality h2{
+        font-size: 25px;
+        margin: -22px 0 0 0;
+        padding-left: 15px;
+    }
+    .quality p {
+        font-size: 15px;
+        padding: 10px 0 0 30px;
+        width: 100%;
+    }
+    .upwork img{
+        width: 20%;
+        height: 420px;
+        position: absolute;
+        top: -20px;
+        left: 45%;
+    }
+    .market {
+        width: 45%;
+        background-color: #008b8b;
+        border-radius: 10px;
+        margin-left: 30px;
+        height: 400px;
+    }
+    .market h1 {
+        font-size: 25px;
+        padding: 120px 0 0 60px;
+        color: #fff;
+        width: 100%;
+    }
+    .market h2 {
+        font-size: 20px;
+        padding: 10px 0 0 60px;
+        color: #fff;
+        width: 100%;
+    }
+    .market h3 {
+        font-size: 20px;
+        padding: 10px 0 0 60px;
+        color: #fff;
+        width: 100%;
+    }
+    .market p {
+        font-size: 20px;
+        padding: 10px 0 0 70px;
+        color: #fff; 
+        width: 100%;  
+    }
+    .great {
+        display: flex;
+        margin: 30px 0 0 0;
+        height: 400px;
+        width: 100%;
+    }
+    .manager {
+        width: 100%;
+    }
+    .manager img {
+        width: 100%;
+        height: 400px;
+    }
+    .clients {
+        background-color: #3d53e1;
+        width: 100%;
+        border-radius: 10px;
+        height: 400px;
+    }
+    .clients h3 {
+        font-size: 25px;
+        color: #fff;
+        padding: 20px 0 0 20px;
+    }
+    .clients h1 {
+        font-size: 40px;
+        color: #fff;
+        padding: 20px 0 0 20px;
+    }
+    .clients p {
+        font-size: 18px;
+        color: #fff;
+        padding: 20px 0 30px 20px;
+    }
+    .clients ul {
+        display: flex;
+    }
+    .clients ul li {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 15px;
+        padding: 10px 20px 0 15px;
+        color: #fff;
+    }
+    .clients button {
+        font-size: 12px;
+        margin: 15px 0 0 10px;
+        padding: 10px 10px;
+        border-radius: 50px;
+        border: none;
+        background-color: #fff;
+        color: #3d53e1;
+        cursor: pointer;
+       
+    }
+    .clients button:hover {
+        background-color: #d3d3d3;
+        color: #3d53e1;
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .heading {
+        font-size: 30px;
+        margin: 50px 0 0 10px;
+        color: #001e00;
+        width: 100%;
+    }
+    .action {
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #808080;
+        width: 100%;
+        height: 180px;
+        margin: 30px 0 0 0;
+        border-radius: 10px;
+        padding: 30px 0 0 10px;
+    }
+    .ukraine h1{
+        font-size: 30px;
+    }
+    .ukraine p {
+        font-size: 18px;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .ukraine button {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        padding: 10px 30px;
+        border-radius: 50px;
+        border: 2px solid #008000;
+        background-color: #fff;
+        color: #008000;
+        cursor: pointer;
+    }
+    .ukraine button:hover {
+        background-color: #d3d3d3;
+        color: #008000;
+    }
+    .feeling img {
+        width: 12%;
+        position: absolute;
+        top: 90px;
+        right: 50px;
+    }
+    .developer {
+        display: flex;
+        margin: 80px 0 0 0;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .trend ul li {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0 0 20px 30px;
+        color: #808080;
+    }
+    .trend sup {
+        font-size: 8px;
+    }
+    .trend ul li:hover {
+        color: #008000;
+    }
+    .edit {
+        display: flex;
+        margin-left: 80px;
+    }
+    .specialist ul li {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0 70px 10px 10px;
+    }
+    .specialist ul li:hover {
+        color: #008000;
+    }
+    .designer ul li {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0 0 10px 0;
+    }
+    .designer ul li:hover {
+        color: #008000;
+    }
+    .footer {
+        background-color: #001e00;
+        width: 100%;
+        height: 1150px;
+        margin: 30px 0 0 0;
+        border-radius: 10px;
+        padding-top: 50px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .resources{
+        display: flex;
+        margin: 0 0 0 10px;
+    }
+    .resources ul li {
+        list-style-type: none;
+        padding: 0 30px 10px 20px;
+        font-size: 18px;
+        color: #fff;
+    }
+    .button p {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .button img {
+        width: 30px;
+        height: 30px;
+        margin: 30px 0 0 10px;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        color: #fff;
+    }
+    .apps {
+        position: absolute;
+        bottom: 675px;
+        right: 50px;
+    }
+    .apps p {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 70px;
+    }
+    .apps img{
+        width: 30px;
+        height: 30px;
+        margin: 70px 0 0 10px;
+        border: 1px solid #fff;
+        border-radius:100px;
+        color: #fff;
+    }
+    .apps a {
+        color: #fff;
+    }
+    .condition ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 10px 0 0 15px;
+        font-size: 14px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .condition ul li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
